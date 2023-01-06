@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Build Applications') {
+        stage('Build Application') {
              steps{
                 build job: 'build-web-application'
             }
